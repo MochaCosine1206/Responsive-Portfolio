@@ -191,3 +191,17 @@ p.copyright {
     font-size: 6pt;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 980px;) {
+    .about {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px;) {
+    
+}
+
+@media screen and (max-width: 640px;) {
+    
+}
