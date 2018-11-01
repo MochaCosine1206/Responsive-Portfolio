@@ -194,7 +194,7 @@ p.copyright {
 
 @media screen and (max-width: 980px;) {
     .about {
-        width: 75%;
+        max-width: 650px;
     }
 }
 
@@ -203,5 +203,10 @@ p.copyright {
 }
 
 @media screen and (max-width: 640px;) {
-    
+    nav {
+        position: static;
+    }
+    .imgtxt {
+        width: 100%;
+    }
 }
