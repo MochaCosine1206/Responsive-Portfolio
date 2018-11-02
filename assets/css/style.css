@@ -7,6 +7,10 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
 .background {
     background-color: #4aaaa5;
     background-image: url(../images/pipes.png);
@@ -192,19 +196,38 @@ p.copyright {
     padding-top: 10px;
 }
 
-@media screen and (max-width: 980px;) {
+@media screen and (max-width: 980px) {
     .about {
         max-width: 650px;
     }
 }
 
-@media screen and (max-width: 768px;) {
+@media screen and (max-width: 768px) {
     
 }
 
-@media screen and (max-width: 640px;) {
-    nav {
-        position: static;
+@media screen and (max-width: 640px) {
+
+
+
+
+    li {
+        float: left;
+        /* display: inline-block; */
+        padding: 5px 0px;
+        /* width: 100%; */
+    }
+
+    .links {
+        background-color: black;
+        margin: auto;
+        width: 50%;
+    }
+
+    li.myName {
+        width: 100%;
+        /* display: block; */
+        float: left;
     }
     .imgtxt {
         width: 100%;
