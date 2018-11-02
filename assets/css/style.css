@@ -197,13 +197,25 @@ p.copyright {
 }
 
 @media screen and (max-width: 980px) {
+
+    .background {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 4px;
+    }
+    
     .about {
         max-width: 650px;
+        margin-left: 30px;
     }
+
 }
 
+
 @media screen and (max-width: 768px) {
-    
+    .background {
+        padding: 5%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -213,23 +225,52 @@ p.copyright {
 
     li {
         float: left;
-        /* display: inline-block; */
-        padding: 5px 0px;
-        /* width: 100%; */
+        line-height: 35px;
+        padding: 5px 7px;
+
     }
 
     .links {
         background-color: black;
         margin: auto;
-        width: 50%;
+        width: 39%;
+        text-align: center;
     }
 
     li.myName {
         width: 100%;
         /* display: block; */
         float: left;
+        padding: 0px;
     }
     .imgtxt {
         width: 100%;
+    }
+
+    .background {
+        background-color: #4aaaa5;
+        background-image: url(../images/pipes.png);
+        background-repeat: repeat;
+        overflow: hidden;
+        padding: 5%;
+        
+    }
+
+    img {
+        height: 362px;
+        width: auto;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .about {
+            background-color: #ffffff;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #dddddd;
+            padding: 0px 15px 20px 15px;
+            max-width: 600px;
+            position: relative;
     }
 }
