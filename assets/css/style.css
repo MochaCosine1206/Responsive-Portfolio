@@ -41,7 +41,7 @@ ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    max-width: 930px;
+    max-width: 962px;
 }
 
 li {
@@ -97,7 +97,7 @@ hr {
     border-color: #dddddd;
     padding: 0px 15px 20px 15px;
     margin: auto;
-    max-width: 930px;
+    max-width: 928px;
     position: relative;
 }
 
@@ -112,7 +112,7 @@ hr {
     border-color: #dddddd;
     padding: 0px 15px 20px 15px;
     margin: auto;
-    max-width: 930px;
+    max-width: 928px;
     position: relative;
 }
 
@@ -140,9 +140,9 @@ input[type=submit] {
     border-color: #dddddd;
     padding: 0px 15px 20px 15px;
     margin: auto;
-    max-width: 930px;
+    max-width: 928px;
     position: relative;
-    float: left;
+    overflow: hidden;
 }
 
 .imagebox h1 {
@@ -207,6 +207,12 @@ p.copyright {
         max-width: 560px;
     }
 
+    .imgtxt {
+        width: 47%;
+        margin-right: 0px;
+        margin-left: 15px;
+    }
+
 }
 
 
@@ -220,12 +226,16 @@ p.copyright {
         font-size: 2vw;
     }
 
-    li {
-        margin-top: 10px;
+    ul {
+        margin: 0px;
+        width: 100%;
+        max-width: 734px;
     }
+
     
     nav {
         margin-left: 14px;
+
     }
     
     .background {
@@ -234,12 +244,14 @@ p.copyright {
 
     .imgtxt {
         width: 47%;
+        margin-right: 0px;
+        margin-left: 15px;
     }
     
     .about, .imagebox, .formbox {
         margin: 0px;
         width: 100%;
-        max-width: 708px;
+        max-width: 698px;
     }
 
 
@@ -251,8 +263,11 @@ p.copyright {
         margin: 0;
     }
 
-
-
+    ul {
+        margin: 0;
+        padding: 0;
+        max-width: 962px;
+    }
 
     li {
         float: left;
@@ -276,6 +291,9 @@ p.copyright {
     }
     .imgtxt {
         width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     }
 
     .background {
@@ -302,5 +320,9 @@ p.copyright {
             width: 94%;
             max-width: 600px;
             position: relative;
+    }
+
+    .txtbar {
+        width: 100%;
     }
 }
