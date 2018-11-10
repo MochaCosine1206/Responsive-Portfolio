@@ -28,7 +28,7 @@ img {
     margin-bottom: 10px;
 }
 
-nav{
+nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -165,7 +165,7 @@ input[type=submit] {
     margin-top: 15px;
 }
 
-.txtbar{
+.txtbar {
     position: absolute;
     bottom: 40px;
     background-color: #4aaaa5;
@@ -235,7 +235,6 @@ p.copyright {
     
     nav {
         margin-left: 14px;
-
     }
     
     .background {
@@ -250,7 +249,7 @@ p.copyright {
     
     .about, .imagebox, .formbox {
         margin: 0px;
-        width: 100%;
+        width: 95%;
         max-width: 698px;
     }
 
@@ -292,19 +291,18 @@ p.copyright {
         float: left;
         padding: 0px;
     }
+
     .imgtxt {
         width: 100%;
         margin-right: 0px;
         margin-left: 0px;
-    }
     }
 
     .background {
         background-color: #4aaaa5;
         background-image: url(../images/pipes.png);
         background-repeat: repeat;
-        overflow: hidden;
-        
+        overflow: hidden;   
     }
 
     img {
